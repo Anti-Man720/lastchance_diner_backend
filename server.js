@@ -15,7 +15,8 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: ['http://127.0.0.1:3000'],
+    // origin: ['http://127.0.0.1:3000'],
+    origin: ['http://108.93.10.170'],
   })
 );
 
