@@ -17,7 +17,7 @@ app.use(
     credentials: true,
     // origin: ['http://127.0.0.1:3000'],
     // origin: ['http://108.93.10.170'],
-    origin: ['https://frontend-eating-2eedbaefff22.herokuapp.com/']
+    origin: ['https://git.heroku.com/frontend-eating.git']
   })
 );
 
