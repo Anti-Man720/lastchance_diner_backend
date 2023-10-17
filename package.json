@@ -1,4 +1,6 @@
-{ "schema": "./path/to/package-schema.json",
+{ 
+  
+  "schema": "./path/to/package-schema.json",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
