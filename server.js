@@ -16,7 +16,8 @@ app.use(
   cors({
     credentials: true,
     // origin: ['http://127.0.0.1:3000'],
-    origin: ['http://108.93.10.170'],
+    // origin: ['http://108.93.10.170'],
+    origin: ['https://capstone-backend2-70ebab3d848f.herokuapp.com/']
   })
 );
 
