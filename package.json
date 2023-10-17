@@ -6,6 +6,10 @@
   "private": true,
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "10.2.0"
+  },
+
   "dependencies": {
     
     "bcryptjs": "^2.4.3",
