@@ -2,7 +2,7 @@ import { Router } from 'express';
 import handler from 'express-async-handler';
 import auth from '../middleware/auth.mid.js';
 import { BAD_REQUEST } from '../constants/httpStatus.js';
-import { OrderModel } from '../Models/order.model.js';
+import { OrderModel } from '../Models/orders.model.js';
 import { OrderStatus } from '../constants/orderStatus.js';
 import { UserModel } from '../Models/user.model.js';
 
